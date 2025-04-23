@@ -1,0 +1,49 @@
+/* style.css */
+
+/* 1. Basic styling for the body */
+body {
+    font-family: Arial, sans-serif; /* Different font */
+    background-color: #f4f4f4; /* Light background color */
+    margin: 0; /* No margin around the body */
+    padding: 20px; /* Padding for spacing inside the body */
+  }
+  
+  /* 2. Styling for an element with a class */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto; /* Centers the container */
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border: 2px solid #ddd; /* Light gray border */
+  }
+  
+  /* 3. Styling for an element with an ID */
+  #header {
+    text-align: center;
+    color: #333; /* Dark text color */
+    margin-bottom: 20px; /* Bottom margin */
+  }
+  
+  /* 4. Styling images */
+  img {
+    width: 100%; /* Makes the image responsive */
+    max-width: 600px; /* Maximum width for the image */
+    border-radius: 10px; /* Rounded corners for the image */
+    display: block; /* Removes extra space under the image */
+    margin: 20px auto; /* Centering the image with margin */
+  }
+  
+  /* 5. Button styling */
+  button {
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
